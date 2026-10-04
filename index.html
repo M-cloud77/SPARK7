@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPARK | مغسلة سيارات في برج العرب - غسيل وتلميع وغسيل منزلي</title>
+<meta name="description" content="مغسلة سبارك في برج العرب: غسيل VIP بالرغوة، تلميع احترافي، تنظيف الصالون والمحرك بالبخار، تغيير زيت لكل الأنواع، وخدمة غسيل السيارات عند باب بيتك. احجز الآن على واتساب.">
+<meta name="keywords" content="مغسلة سيارات برج العرب, غسيل سيارات برج العرب, غسيل سيارات عند البيت, تلميع سيارات, SPARK">
+<meta name="theme-color" content="#070b14">
+<meta name="geo.region" content="EG-ALX"><meta name="geo.placename" content="برج العرب">
+<meta property="og:type" content="website"><meta property="og:locale" content="ar_EG">
+<meta property="og:title" content="SPARK | مغسلة سيارات في برج العرب">
+<meta property="og:description" content="غسيل وتلميع احترافي في المغسلة أو عند باب بيتك. احجز على واتساب.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=1200&q=80">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070b14'/%3E%3Cpath d='M32 8l5 17 17 5-17 5-5 17-5-17-17-5 17-5z' fill='%23f5c04a'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoWash","name":"SPARK - مغسلة سبارك","description":"غسيل وتلميع وتنظيف السيارات في المغسلة أو عند المنزل","telephone":"+201035153390","address":{"@type":"PostalAddress","addressLocality":"برج العرب","addressRegion":"الإسكندرية","addressCountry":"EG"},"areaServed":{"@type":"City","name":"برج العرب"},"openingHours":["Mo-Th 09:00-23:00","Fr 13:30-23:00","Sa-Su 09:00-23:00"]}</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{font-family:'Tajawal',sans-serif}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+:root{--brand:#38bdf8;--brand2:#2563eb;--gold:#f5c04a}
+body{background:#070b14;color:#e8eef7;overflow-x:hidden}
+.sec-bg{background:linear-gradient(rgba(7,11,20,.84),rgba(7,11,20,.95)),var(--img) center/cover no-repeat}
+@media(min-width:1024px){.sec-bg{background-attachment:fixed}}
+.card{background:rgba(13,21,38,.8);backdrop-filter:blur(14px);border:1px solid rgba(148,197,255,.16);border-radius:1.25rem;transition:.35s}
+.hov:hover{border-color:rgba(56,189,248,.55);transform:translateY(-4px)}
+.btn{background:linear-gradient(135deg,#38bdf8,#2563eb);color:#fff;font-weight:700;border-radius:.9rem;transition:.3s;box-shadow:0 8px 24px -8px rgba(37,99,235,.7)}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
+.btn-wa{background:linear-gradient(135deg,#22c55e,#15803d);box-shadow:0 8px 24px -8px rgba(21,128,61,.7)}
+.field{width:100%;background:rgba(7,11,20,.8);border:1px solid #243049;color:#fff;padding:.85rem 1rem;border-radius:.8rem;outline:none}
+.field:focus{border-color:var(--brand)}
+.lbl{display:block;font-size:.85rem;font-weight:700;color:#bcd3ee;margin-bottom:.35rem}
+.h2{font-size:2rem;font-weight:900;color:#fff}
+.nl{position:relative;color:#cbd5e1;padding:.25rem 0;transition:.3s}
+.nl::after{content:"";position:absolute;inset-inline:0;bottom:-4px;height:2px;background:var(--gold);transform:scaleX(0);transition:.3s}
+.nl:hover,.nl.act{color:#fff}.nl.act::after{transform:scaleX(1)}
+#mm a{display:block;padding:.75rem 0;border-bottom:1px solid rgba(255,255,255,.08)}#mm a:last-child{border-bottom:0}#mm a::after{display:none}
+.star{color:#475569;font-size:1.9rem;transition:.2s}.star.on{color:var(--gold)}
+.reveal{opacity:0;transform:translateY(24px);transition:.7s}.reveal.in{opacity:1;transform:none}
+details summary{list-style:none}details summary::-webkit-details-marker{display:none}
+details[open] summary i{transform:rotate(180deg)}
+#cd,#cr{position:fixed;top:0;left:0;pointer-events:none;z-index:9999;border-radius:50%;opacity:0;display:none}
+#cd{width:6px;height:6px;margin:-3px 0 0 -3px;background:var(--gold);box-shadow:0 0 12px var(--gold);transition:opacity .3s}
+#cr{width:40px;height:40px;margin:-20px 0 0 -20px;border:1.5px solid rgba(255,255,255,.55);box-shadow:0 0 22px rgba(56,189,248,.3),inset 0 0 12px rgba(56,189,248,.15);transition:opacity .3s,width .3s,height .3s,margin .3s,background .3s,border-color .3s}
+#cr.press{width:28px;height:28px;margin:-14px 0 0 -14px}
+#spot{display:none}
+#cr.big{width:64px;height:64px;margin:-32px 0 0 -32px;background:rgba(245,192,74,.12);border-color:var(--gold)}
+@media(hover:hover) and (pointer:fine){body,a,button,summary,select,label,.star{cursor:none}input,textarea{cursor:text}input[type=checkbox]{cursor:none}#cd,#cr{display:block}#spot{display:block;position:fixed;inset:0;pointer-events:none;z-index:2;background:radial-gradient(380px circle at var(--x,50%) var(--y,50%),rgba(56,189,248,.09),transparent 70%)}}
+.sqs{display:grid;grid-template-columns:repeat(auto-fit,minmax(50px,1fr));gap:.5rem;margin:1rem 0}
+.sq{aspect-ratio:1;border:1.5px dashed rgba(148,197,255,.35);border-radius:.8rem;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:700;color:#7b8aa3;font-size:.9rem}
+.sq.on{border-style:solid;border-color:var(--gold);background:rgba(245,192,74,.15);color:var(--gold);animation:pop .4s}
+.sq.gift{border-style:solid;border-color:#22c55e;color:#4ade80}.sq.gift small{font-size:.6rem}
+.sq.gift.ready{background:rgba(34,197,94,.22);box-shadow:0 0 18px rgba(34,197,94,.45)}
+@keyframes pop{0%{transform:scale(.5)}100%{transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+<linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+<linearGradient id="gl" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".4"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<path id="bd" d="M24 38C24 33 26 31 31 30L48 27C56 19 66 14 80 14H100C110 14 118 18 126 25L146 29C152 30 156 33 156 37V39C156 41 155 42 153 42H27C25 42 24 41 24 39Z"/></defs>
+<symbol id="car" viewBox="0 0 160 52">
+<path d="M2 24h16M6 30h12M0 36h14" stroke="url(#lg)" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+<path d="M25 30l-3-6h12l-1 4z" fill="#f5c04a"/>
+<use href="#bd" fill="url(#lg)"/><use href="#bd" fill="url(#gl)"/>
+<path d="M57 27l11-8.5C70 17 72 16.5 76 16.5H98C104 16.5 110 19.5 116 26z" fill="#0b1220"/>
+<path d="M88 16.5l-1.5 10" stroke="url(#lg)" stroke-width="2"/>
+<path d="M34 34h112" stroke="#fff" stroke-opacity=".3" stroke-width="1.2" stroke-linecap="round"/>
+<circle cx="52" cy="40" r="11" fill="#070b14"/><circle cx="128" cy="40" r="11" fill="#070b14"/>
+<circle cx="52" cy="40" r="8.5" fill="#0b1220" stroke="#e8eef7" stroke-width="2.2"/><circle cx="128" cy="40" r="8.5" fill="#0b1220" stroke="#e8eef7" stroke-width="2.2"/>
+<g stroke="#38bdf8" stroke-width="1.2"><path d="M52 32.5v15M44.5 40h15M46.7 34.7l10.6 10.6M57.3 34.7L46.7 45.3"/><path d="M128 32.5v15M120.5 40h15M122.7 34.7l10.6 10.6M133.3 34.7l-10.6 10.6"/></g>
+<circle cx="52" cy="40" r="2.8" fill="#f5c04a"/><circle cx="128" cy="40" r="2.8" fill="#f5c04a"/>
+<path d="M146 30l9 3-9 2z" fill="#f5c04a"/><rect x="24" y="33" width="4" height="2.5" rx="1" fill="#ff3b6b"/>
+<path d="M140 2l2 5.5 5.5 2-5.5 2-2 5.5-2-5.5-5.500-2 5.500-2z" fill="#f5c04a"/>
+<path d="M126 6l1 2.5 2.5 1-2.5 1-1 2.5-1-2.5-2.5-1 2.5-1z" fill="#7dd3fc"/>
+<path d="M10 49.5h140" stroke="url(#lg)" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+</symbol></svg>
+
+<div id="cd"></div><div id="cr"></div><div id="spot"></div>
+<div class="fixed top-0 inset-x-0 h-1 z-[60]"><div id="prog" class="h-full w-0" style="background:linear-gradient(90deg,#38bdf8,#f5c04a)"></div></div>
+
+<div class="bg-[#0a1322] text-xs text-slate-300 py-2 px-4 flex justify-center gap-5 flex-wrap">
+  <span><i class="fa-regular fa-clock text-amber-300 ml-1"></i>مفتوح يومياً 9 ص – 11 م (الجمعة من بعد الصلاة)</span>
+  <a href="tel:+201035153390"><i class="fa-solid fa-phone text-sky-400 ml-1"></i>للحجز: 01035153390</a>
+</div>
+
+<nav class="sticky top-0 z-50 border-b border-white/10 bg-[#070b14]/85 backdrop-blur-xl">
+  <div class="max-w-7xl mx-auto px-5 py-2.5 flex items-center justify-between">
+    <a href="#top" class="flex items-center gap-3">
+      <svg width="116" height="38"><use href="#car"/></svg>
+      <span class="leading-none"><b class="block text-2xl font-black tracking-[.18em] bg-clip-text text-transparent" style="background-image:linear-gradient(90deg,#fff,#7dd3fc)">SPARK</b><small class="text-[10px] text-amber-300 whitespace-nowrap">لغسيل وتلميع السيارات</small></span>
+    </a>
+    <div class="hidden md:flex items-center gap-4 lg:gap-6 font-medium text-sm lg:text-base">
+      <a href="#top" class="nl">الرئيسية</a>
+      <a href="#services" class="nl">الخدمات</a><a href="#compare" class="nl">الباقات</a>
+      <a href="#book-shop" class="nl">حجز بالمغسلة</a>
+      <a href="#home-wash" class="nl">غسيل منزلي</a>
+      <a href="#loyalty" class="nl">كارت الولاء</a><a href="#reviews" class="nl">آراء العملاء</a>
+      <a href="#faq" class="nl">أسئلة شائعة</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="https://wa.me/201035153390" target="_blank" class="btn px-5 py-2 text-sm flex items-center gap-2"><i class="fa-brands fa-whatsapp text-lg"></i>واتساب</a>
+      <button id="mb" class="md:hidden text-2xl text-white" aria-label="القائمة"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+  <div id="mm" class="hidden md:hidden flex flex-col px-5 pb-3 font-medium">
+    <a href="#services" class="nl">الخدمات</a><a href="#compare" class="nl">الباقات</a><a href="#book-shop" class="nl">حجز بالمغسلة</a><a href="#home-wash" class="nl">غسيل منزلي</a><a href="#loyalty" class="nl">كارت الولاء</a><a href="#reviews" class="nl">آراء العملاء</a><a href="#faq" class="nl">أسئلة شائعة</a>
+  </div>
+</nav>
+
+<header id="top" class="min-h-[88vh] flex items-center px-6 py-16" style="background:linear-gradient(100deg,rgba(7,11,20,.92) 15%,rgba(7,11,20,.35)),url('https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=1920&q=80') center/cover">
+  <div class="max-w-6xl mx-auto w-full">
+    <div class="max-w-2xl space-y-6">
+      <h1 class="text-4xl md:text-6xl font-black leading-tight">غسيل وتلميع بمستوى المعارض، <span class="text-sky-400">في المغسلة أو عند باب بيتك</span></h1>
+      <p class="text-slate-300 text-lg leading-relaxed">رغوة متعادلة آمنة على الطلاء، تلميع احترافي، وتعقيم الصالون بالبخار. نخدمك في مدينة برج العرب.</p>
+      <p class="text-amber-300 font-bold"><i class="fa-solid fa-gift ml-2"></i>خصم 15% لأول غسلة في المغسلة و10% عند البيت</p>
+      <div class="flex flex-wrap gap-3 pt-2">
+        <a href="#book-shop" class="btn px-7 py-3.5 text-lg flex items-center gap-2"><i class="fa-solid fa-calendar-check"></i>احجز في المغسلة</a>
+        <a href="#home-wash" class="px-7 py-3.5 text-lg font-bold rounded-xl border border-white/30 hover:bg-white/10 transition flex items-center gap-2"><i class="fa-solid fa-house"></i>غسيل عند البيت</a>
+      </div>
+      <div class="flex gap-8 pt-6 text-sm text-slate-300">
+        <div><b class="block text-2xl text-white">+1500</b>سيارة تم غسلها</div>
+        <div><b class="block text-2xl text-white">100%</b>مواد آمنة للطلاء</div>
+        <div><b class="block text-2xl text-white">7 أيام</b>في الأسبوع</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="services" class="sec-bg py-20 px-6" style="--img:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80')">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 reveal"><h2 class="h2">خدماتنا</h2><p class="text-slate-400 mt-2">كل خدمة بتتنفذ بخطوات واضحة ومواد معتمدة</p></div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="card hov p-5 reveal"><img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=800&q=80" alt="غسيل بالرغوة" class="h-44 w-full object-cover rounded-xl mb-5"><h3 class="text-xl font-bold mb-2"><i class="fa-solid fa-soap text-sky-400 ml-2"></i>غسيل VIP بالرغوة والنانو</h3><p class="text-slate-400 text-sm mb-5">تنظيف خارجي كامل مع تنظيف الجنوط والإطارات.</p><a href="#book-shop" class="block text-center py-2.5 rounded-xl bg-white/10 hover:bg-sky-500 transition font-bold">احجز موعدك</a></div>
+      <div class="card hov p-5 reveal"><img src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=800&q=80" alt="تلميع" class="h-44 w-full object-cover rounded-xl mb-5"><h3 class="text-xl font-bold mb-2"><i class="fa-solid fa-gem text-sky-400 ml-2"></i>تلميع وبولش النانو</h3><p class="text-slate-400 text-sm mb-5">معالجة الخدوش السطحية والدوائر وإعادة لمعان الطلاء الأصلي.</p><a href="#book-shop" class="block text-center py-2.5 rounded-xl bg-white/10 hover:bg-sky-500 transition font-bold">احجز موعدك</a></div>
+      <div class="card hov p-5 reveal"><img src="https://images.unsplash.com/photo-1552930294-6b595f4c2974?auto=format&fit=crop&w=800&q=80" alt="تنظيف الصالون" class="h-44 w-full object-cover rounded-xl mb-5"><h3 class="text-xl font-bold mb-2"><i class="fa-solid fa-spray-can-sparkles text-sky-400 ml-2"></i>الصالون وتعقيم البخار</h3><p class="text-slate-400 text-sm mb-5">غسيل المقاعد والفرش والتابلوه وإزالة البقع والروائح بالبخار.</p><a href="#book-shop" class="block text-center py-2.5 rounded-xl bg-white/10 hover:bg-sky-500 transition font-bold">احجز موعدك</a></div>
+      <div class="card hov p-5 reveal"><div class="h-44 rounded-xl mb-5 flex items-center justify-center" style="background:linear-gradient(135deg,#0f2747,#1d4ed8)"><i class="fa-solid fa-oil-can text-6xl text-amber-300"></i></div><h3 class="text-xl font-bold mb-2"><i class="fa-solid fa-droplet text-sky-400 ml-2"></i>تغيير زيت المحرك</h3><p class="text-slate-400 text-sm mb-5">تغيير زيت لكل أنواع الزيوت، ونوضحلك الأنسب لسيارتك قبل ما نبدأ.</p><a href="#book-shop" class="block text-center py-2.5 rounded-xl bg-white/10 hover:bg-sky-500 transition font-bold">احجز موعدك</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="compare" class="sec-bg py-20 px-6" style="--img:url('https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=1920&q=80')">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-10 reveal"><h2 class="h2">قارن بين الباقات</h2><p class="text-slate-300 mt-2">شوف كل باقة بتشمل إيه واختار اللي يناسب سيارتك</p></div>
+    <div class="card p-3 md:p-6 overflow-x-auto reveal"><table id="cmp" class="w-full min-w-[560px] text-sm"></table></div>
+    <div class="text-center mt-8"><a href="#book-shop" class="btn inline-block px-8 py-3">احجز الباقة المناسبة</a></div>
+  </div>
+</section>
+
+<section id="book-shop" class="sec-bg py-20 px-6" style="--img:url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1920&q=80')">
+  <div class="max-w-5xl mx-auto grid md:grid-cols-5 gap-8 items-center">
+    <div class="md:col-span-2 space-y-5 reveal">
+      <h2 class="h2">احجز موعدك في المغسلة</h2>
+      <p class="text-slate-300 leading-relaxed">اكتب بياناتك وهنراجعك على واتساب نأكد معاك الموعد. من غير انتظار طويل ولا زحمة.</p>
+      <ul class="space-y-3 text-slate-300 text-sm">
+        <li><i class="fa-solid fa-circle-check text-emerald-400 ml-2"></i>السعر بيتحدد بعد معاينة السيارة وبتوافق عليه قبل ما نبدأ</li>
+        <li><i class="fa-solid fa-circle-check text-emerald-400 ml-2"></i>الدفع بعد ما تستلم سيارتك وتتأكد من النتيجة</li>
+        <li><i class="fa-solid fa-circle-check text-emerald-400 ml-2"></i>بنتصل بيك لما سيارتك تجهز</li>
+      </ul>
+    </div>
+    <form id="shopForm" class="card md:col-span-3 p-6 md:p-8 space-y-4 reveal">
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div><label class="lbl">الاسم</label><input id="sName" required class="field" placeholder="اسمك بالكامل"></div>
+        <div><label class="lbl">رقم الموبايل</label><input id="sPhone" required type="tel" inputmode="tel" class="field" placeholder="01XXXXXXXXX"><p id="sBadge" class="text-xs text-amber-300 mt-1 min-h-4"></p></div>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div><label class="lbl">فئة السيارة</label><select id="sCar" class="field"><option>سيدان متوسطة</option><option>SUV / دفع رباعي</option><option>سيارة فاخرة</option></select></div>
+        <div><label class="lbl">موديل السيارة (اختياري)</label><input id="sModel" class="field" placeholder="مثال: كيا سيراتو 2022"></div>
+      </div>
+      <div><label class="lbl">الخدمة المطلوبة</label><select id="sSvc" class="field"><option>غسيل خارجي وتلميع سريع</option><option>غسيل VIP كامل للصالون والجسم</option><option>غسيل VIP شامل المحرك بالبخار</option><option>باقة SPARK الشاملة (غسيل + بخار + نانو بولش)</option><option>بدون غسيل (تغيير زيت فقط)</option><option>لا أعرف، أريد استشارة</option></select></div>
+      <label class="flex items-center gap-3 rounded-xl border border-white/15 bg-black/20 p-3 text-sm"><input type="checkbox" id="sOilChk" class="w-5 h-5 accent-sky-400"><span>أضف تغيير زيت لنفس الحجز (كل أنواع الزيوت)</span></label>
+      <div id="oilBox" class="hidden"><label class="lbl">نوع الزيت المفضل (اختياري)</label><input id="sOil" class="field" placeholder="مثال: صناعي بالكامل، أو اتركه لنا نرشحلك"></div>
+      <div><label class="lbl">ملاحظات (اختياري)</label><textarea id="sNote" rows="2" class="field" placeholder="أي تفاصيل عن حالة السيارة"></textarea></div>
+      <button class="btn btn-wa w-full py-3.5 text-lg flex items-center justify-center gap-2"><i class="fa-brands fa-whatsapp text-xl"></i>احجز عبر واتساب</button>
+    </form>
+  </div>
+</section>
+
+<section id="home-wash" class="sec-bg py-20 px-6" style="--img:url('https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=1920&q=80')">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-10 reveal"><h2 class="h2">غسيل السيارة عند باب بيتك</h2><p class="text-slate-300 mt-2">بنوصلك بمعداتنا ومياهنا. اختار الفئة والخدمة وشوف السعر التقديري.</p><p class="text-sky-300 text-sm font-bold mt-5 mb-2">الأحياء اللي بنوصلها داخل برج العرب</p><div id="zones" class="flex flex-wrap justify-center gap-2"></div></div>
+    <div class="card p-6 md:p-10 space-y-5 reveal">
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><label class="lbl">فئة السيارة</label><select id="carSize" class="field"><option value="1">سيدان متوسطة</option><option value="1.25">SUV / دفع رباعي</option><option value="1.6">سيارة فاخرة</option></select></div>
+        <div><label class="lbl">نوع الخدمة</label><select id="svc" class="field"><option value="150">غسيل خارجي وتلميع سريع</option><option value="300">غسيل VIP كامل للصالون والجسم</option><option value="400">غسيل VIP شامل المحرك بالبخار</option><option value="700">باقة SPARK الشاملة (غسيل + بخار + نانو بولش)</option><option value="0">بدون غسيل (تغيير زيت فقط)</option></select></div>
+      </div>
+      <div class="rounded-2xl bg-black/30 border border-sky-400/20 text-center py-5"><span class="text-slate-400 text-sm block">السعر التقديري</span><span id="price" class="text-4xl font-black text-amber-300">150 ج.م</span><span class="text-xs text-slate-500 block mt-1">قد يتغير قليلاً بعد معاينة حالة السيارة</span></div>
+      <label class="flex items-center gap-3 rounded-xl border border-white/15 bg-black/20 p-3 text-sm"><input type="checkbox" id="hOilChk" class="w-5 h-5 accent-sky-400"><span>أضف تغيير زيت لنفس الطلب (كل أنواع الزيوت)</span></label>
+      <div id="hOilBox" class="hidden"><label class="lbl">نوع الزيت المفضل (اختياري)</label><input id="hOil" class="field" placeholder="مثال: صناعي بالكامل، أو اتركه لنا نرشحلك"></div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div><label class="lbl">الاسم</label><input id="hName" class="field" placeholder="اسمك بالكامل"></div>
+        <div><label class="lbl">رقم الموبايل</label><input id="hPhone" type="tel" inputmode="tel" class="field" placeholder="01XXXXXXXXX"><p id="hBadge" class="text-xs text-amber-300 mt-1 min-h-4"></p></div>
+      </div>
+      <div><label class="lbl">الحي داخل برج العرب</label><select id="hZone" class="field"></select></div>
+      <div><label class="lbl">العنوان بالتفصيل</label><textarea id="hAddr" rows="2" class="field" placeholder="الشارع، رقم العمارة، علامة مميزة"></textarea></div>
+      <div><div class="flex justify-between items-center mb-1"><label class="lbl !mb-0">رابط الموقع (اختياري)</label><button type="button" id="gps" class="text-xs text-sky-400 hover:underline"><i class="fa-solid fa-location-crosshairs ml-1"></i>حدد موقعي تلقائياً</button></div><input id="hLoc" class="field" placeholder="الصق رابط خرائط جوجل أو اضغط تحديد تلقائي"></div>
+      <button id="homeSend" class="btn btn-wa w-full py-3.5 text-lg flex items-center justify-center gap-2"><i class="fa-brands fa-whatsapp text-xl"></i>اطلب الغسيل المنزلي عبر واتساب</button>
+    </div>
+  </div>
+</section>
+
+<section id="loyalty" class="sec-bg py-20 px-6" style="--img:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80')">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-10 reveal"><h2 class="h2">عروض وكارت الولاء</h2><p class="text-slate-300 mt-2">كل ما تغسل عندنا أكتر، توفّر أكتر</p></div>
+    <div class="grid md:grid-cols-2 gap-5 mb-6 reveal">
+      <div class="card p-5 text-center"><b class="text-4xl text-amber-300">15%</b><p class="text-slate-300 mt-1">خصم على أول غسلة في المغسلة</p></div>
+      <div class="card p-5 text-center"><b class="text-4xl text-amber-300">10%</b><p class="text-slate-300 mt-1">خصم على أول غسلة عند البيت</p></div>
+    </div>
+    <div class="card p-5 mb-6 reveal">
+      <label class="lbl">اعرف رصيد كارتك: اكتب رقم موبايلك</label>
+      <div class="flex gap-3"><input id="lcPhone" type="tel" inputmode="tel" class="field" placeholder="01XXXXXXXXX"><button id="lcBtn" class="btn px-6 shrink-0">اعرض كارتي</button></div>
+      <p id="lcMsg" class="text-amber-300 text-sm mt-2 min-h-5"></p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-5 reveal">
+      <div class="card p-5"><h3 class="font-bold"><i class="fa-solid fa-warehouse text-sky-400 ml-2"></i>المغسلة: كل 5 غسلات، السادسة مجاناً</h3><div id="lc-shop" class="sqs"></div><p id="lt-shop" class="text-sm text-slate-300"></p></div>
+      <div class="card p-5"><h3 class="font-bold"><i class="fa-solid fa-house text-sky-400 ml-2"></i>عند البيت: كل 6 غسلات، السابعة مجاناً</h3><div id="lc-home" class="sqs"></div><p id="lt-home" class="text-sm text-slate-300"></p></div>
+    </div>
+    <div id="lcHist" class="card p-5 mt-5 text-sm text-slate-300 hidden"></div>
+    <p class="text-center text-slate-400 text-xs mt-5">بتتسجل علامة على كارتك مع كل حجز، والكارت محفوظ على جهازك.</p>
+  </div>
+</section>
+
+<section id="reviews" class="sec-bg py-20 px-6" style="--img:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80')">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-10 reveal"><h2 class="h2">آراء عملائنا</h2><p class="mt-2 text-slate-300">متوسط التقييم <b id="avg" class="text-amber-300 text-xl">5.0</b> <span class="text-amber-300">★</span> من <span id="cnt">3</span> تقييم</p></div>
+    <div id="rgrid" class="grid md:grid-cols-3 gap-6"></div>
+    <form id="rForm" class="card max-w-xl mx-auto mt-12 p-6 space-y-4 reveal">
+      <h3 class="text-xl font-bold text-center">قيّم تجربتك مع SPARK</h3>
+      <div id="stars" class="flex justify-center gap-2" dir="ltr"><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i><i class="fa-solid fa-star star"></i></div>
+      <input id="rName" class="field" placeholder="اسمك" maxlength="40">
+      <textarea id="rText" rows="3" class="field" placeholder="اكتب رأيك في الخدمة" maxlength="300"></textarea>
+      <p id="rMsg" class="text-center text-sm text-amber-300 h-5"></p>
+      <button class="btn w-full py-3">أرسل تقييمك</button>
+    </form>
+  </div>
+</section>
+
+<section id="faq" class="sec-bg py-20 px-6" style="--img:url('https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=1920&q=80')">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="h2 text-center mb-10 reveal">أسئلة شائعة</h2>
+    <div class="space-y-3 reveal">
+      <details class="card p-5"><summary class="flex justify-between font-bold"><span>لازم أحجز قبل ما أجي المغسلة؟</span><i class="fa-solid fa-chevron-down text-sky-400 transition"></i></summary><p class="text-slate-400 text-sm mt-3">الحجز بيضمن إن مكانك جاهز من غير انتظار. اضغط احجز وهنأكد معاك على واتساب.</p></details>
+      <details class="card p-5"><summary class="flex justify-between font-bold"><span>إزاي بيتحدد سعر الغسيل في المغسلة؟</span><i class="fa-solid fa-chevron-down text-sky-400 transition"></i></summary><p class="text-slate-400 text-sm mt-3">بنعاين السيارة الأول، والسعر بيعتمد على حجمها وحالتها، وبنتفق معاك عليه قبل ما نبدأ.</p></details>
+      <details class="card p-5"><summary class="flex justify-between font-bold"><span>الغسيل المنزلي محتاج أجهز حاجة؟</span><i class="fa-solid fa-chevron-down text-sky-400 transition"></i></summary><p class="text-slate-400 text-sm mt-3">لا، الفريق بيوصل بالمعدات والمياه. كفاية مكان مناسب لركن السيارة.</p></details>
+      <details class="card p-5"><summary class="flex justify-between font-bold"><span>إيه أنواع الزيت اللي بتغيروها؟</span><i class="fa-solid fa-chevron-down text-sky-400 transition"></i></summary><p class="text-slate-400 text-sm mt-3">بنغير كل أنواع الزيوت (معدني، نصف صناعي، صناعي بالكامل). اكتب نوع الزيت اللي عايزه في الحجز أو اتركه لنا ونرشحلك الأنسب لسيارتك، والسعر بيتحدد حسب النوع.</p></details>
+      <details class="card p-5"><summary class="flex justify-between font-bold"><span>إيه الفرق بين الغسيل العادي وVIP؟</span><i class="fa-solid fa-chevron-down text-sky-400 transition"></i></summary><p class="text-slate-400 text-sm mt-3">العادي للشكل الخارجي، أما VIP فبيشمل تنظيف الصالون بالتفصيل، ولو اخترت الباقة الأعلى بيتضاف المحرك والتلميع.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-[#050810] border-t border-white/10 py-10 px-6">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+    <div class="flex items-center gap-3"><svg width="104" height="34"><use href="#car"/></svg><div><b class="text-xl">SPARK</b><p class="text-slate-400 text-sm">مغسلة سبارك لنظافة وتلميع السيارات في برج العرب</p></div></div>
+    <div class="text-center md:text-left text-sm text-slate-300 space-y-1"><p><i class="fa-solid fa-phone text-sky-400 ml-2"></i><a href="tel:+201035153390" class="font-bold text-lg">01035153390</a></p><p><i class="fa-regular fa-clock text-amber-300 ml-2"></i>يومياً 9 ص – 11 م، والجمعة من بعد الصلاة</p></div>
+  </div>
+  <p class="text-center text-slate-500 text-xs mt-8">جميع الحقوق محفوظة &copy; 2026 - مغسلة سبارك</p>
+</footer>
+
+<a href="https://wa.me/201035153390" target="_blank" aria-label="واتساب" class="fixed bottom-6 right-6 z-40 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition"><i class="fa-brands fa-whatsapp text-3xl"></i></a>
+
+<script>
+const $=id=>document.getElementById(id), WA='201035153390';
+const send=t=>window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(t),'_blank');
+const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+// Cursor
+let mx=0,my=0,rx=0,ry=0;
+addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;if(!rx&&!ry){rx=mx;ry=my}
+  const f=e.target.closest&&e.target.closest('input:not([type=checkbox]),textarea');
+  $('cd').style.opacity=$('cr').style.opacity=f?0:1;
+  $('cd').style.transform=`translate(${mx}px,${my}px)`;
+  $('spot').style.setProperty('--x',mx+'px');$('spot').style.setProperty('--y',my+'px')});
+document.addEventListener('mouseleave',()=>$('cd').style.opacity=$('cr').style.opacity=0);
+addEventListener('mousedown',()=>$('cr').classList.add('press'));addEventListener('mouseup',()=>$('cr').classList.remove('press'));
+(function loop(){rx+=(mx-rx)*.16;ry+=(my-ry)*.16;$('cr').style.transform=`translate(${rx}px,${ry}px)`;requestAnimationFrame(loop)})();
+document.querySelectorAll('a,button,summary,select,label,.star').forEach(el=>{el.addEventListener('mouseenter',()=>$('cr').classList.add('big'));el.addEventListener('mouseleave',()=>$('cr').classList.remove('big'))});
+
+// Nav: mobile menu, progress, active link, reveal
+$('mb').onclick=()=>$('mm').classList.toggle('hidden');
+$('mm').onclick=()=>$('mm').classList.add('hidden');
+addEventListener('scroll',()=>{$('prog').style.width=(scrollY/(document.body.scrollHeight-innerHeight)*100)+'%'});
+const links=[...document.querySelectorAll('nav a.nl')];
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle('act',l.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -55% 0px'});
+['top','services','compare','book-shop','home-wash','loyalty','reviews','faq'].forEach(id=>so.observe($(id)));
+const ro=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+
+// Loyalty + first-time offers (الكارت محفوظ في متصفح العميل)
+const N={shop:5,home:6},DISC={shop:15,home:10};
+let shopCard=null,homeCard=null,homeFree=false,homeNote='';
+const norm=p=>{p=p.replace(/\D/g,'');if(p.startsWith('20')&&p.length>=12)p='0'+p.slice(2);return p};
+function readCard(phone){
+  phone=norm(phone);if(phone.length<10)return null;
+  try{return JSON.parse(localStorage.getItem('sp_c_'+phone))||{shop:0,home:0,total:0}}catch(e){return {shop:0,home:0,total:0}}}
+const getCard=async p=>readCard(p);
+function addStamp(phone,type,sv){
+  phone=norm(phone);const c=readCard(phone);if(!c)return null;
+  c[type]=c[type]>=N[type]?0:c[type]+1;c.total++;c.h=(c.h||[]).concat({d:new Date().toLocaleDateString('ar-EG'),t:type,s:sv||''}).slice(-8);
+  try{localStorage.setItem('sp_c_'+phone,JSON.stringify(c));localStorage.setItem('sp_last',phone)}catch(e){}
+  return c}
+function statusLine(t,c){
+  if(!c)return '';
+  if(c.total===0)return `🆕 عميل جديد (أول مرة) - خصم ${DISC[t]}%`;
+  if(c[t]>=N[t])return '👤 عميل قديم - 🎁 الغسلة دي مجانية من كارت الولاء';
+  return `👤 عميل قديم - غسلته رقم ${c[t]+1} (${c[t]} من ${N[t]} على الكارت)`+(c.h&&c.h.length?` - آخر طلب: ${c.h[c.h.length-1].s}`:'')}
+function offerText(t,c){
+  if(!c)return '';
+  if(c.total===0)return `🎁 أول مرة؟ خصم ${DISC[t]}% على غسلتك`;
+  if(c[t]>=N[t])return '🎁 غسلتك دي مجانية من كارت الولاء';
+  return `👤 عميل قديم: غسلاتك ${c[t]} من ${N[t]} (الغسلة ${N[t]+1} مجاناً)`}
+function cardHTML(t,n){let h='';for(let i=1;i<=N[t];i++)h+=`<div class="sq ${i<=n?'on':''}">${i<=n?'<i class="fa-solid fa-check"></i>':i}</div>`;
+  return h+`<div class="sq gift ${n>=N[t]?'ready':''}"><i class="fa-solid fa-gift"></i><small>مجاناً</small></div>`}
+function histShow(c){const ok=c&&c.h&&c.h.length;$('lcHist').classList.toggle('hidden',!ok);
+  if(ok)$('lcHist').innerHTML='<b class="text-slate-100">آخر طلباتك:</b><ul class="mt-2 space-y-1">'+c.h.slice().reverse().map(x=>`<li>${esc(x.d)} - ${x.t==='shop'?'المغسلة':'عند البيت'}: ${esc(x.s)}</li>`).join('')+'</ul>'}
+function renderCards(c){histShow(c);['shop','home'].forEach(t=>{const n=c?Math.min(c[t],N[t]):0;$('lc-'+t).innerHTML=cardHTML(t,n);$('lt-'+t).textContent=c?(n>=N[t]?'غسلتك الجاية مجانية 🎁':`فاضل ${N[t]-n} غسلات للغسلة المجانية`):'اكتب رقمك لتشوف رصيدك'})}
+function afterBook(type,phone){
+  const sv=type==='shop'?$('sSvc').value:$('svc').selectedOptions[0].text;const c=addStamp(phone,type,sv);if(!c)return;
+  if(type==='shop')shopCard=c;else homeCard=c;
+  $(type==='shop'?'sBadge':'hBadge').textContent=offerText(type,c);
+  $('lcPhone').value=norm(phone);renderCards(c);if(type==='home')calc()}
+renderCards(null);
+$('lcBtn').onclick=()=>{const c=readCard($('lcPhone').value);if(!c){$('lcMsg').textContent='اكتب رقم موبايل صحيح';return}
+  $('lcMsg').textContent=c.total===0?`أنت عميل جديد: خصم ${DISC.shop}% في المغسلة أو ${DISC.home}% عند البيت على أول غسلة 🎁`:`👤 عميل قديم: سجّلت ${c.total} غسلة معانا، أهلاً بعودتك`;renderCards(c)};
+try{const l=localStorage.getItem('sp_last');if(l){$('lcPhone').value=l;renderCards(readCard(l))}}catch(e){}
+
+// Shop booking (no price)
+$('shopForm').onsubmit=e=>{e.preventDefault();const oilOn=$('sOilChk').checked||$('sSvc').value.includes('زيت فقط');
+  let m=`*طلب حجز موعد بالمغسلة - SPARK*\n\n👤 الاسم: ${$('sName').value.trim()}\n📞 الموبايل: ${$('sPhone').value.trim()}\n🚘 الفئة: ${$('sCar').value}\n🛠️ الخدمة: ${$('sSvc').value}`;
+  if($('sModel').value.trim())m+=`\n🚗 الموديل: ${$('sModel').value.trim()}`;
+  if(oilOn)m+=`\n🛢️ إضافة تغيير زيت: ${$('sOil').value.trim()||'نرشحه لك'}`;
+  if($('sNote').value.trim())m+=`\n📝 ملاحظات: ${$('sNote').value.trim()}`;
+  {const o=statusLine('shop',readCard($('sPhone').value));if(o)m+='\n'+o}
+  send(m,{type:'حجز بالمغسلة',name:$('sName').value.trim(),phone:$('sPhone').value.trim(),car:$('sCar').value,model:$('sModel').value.trim(),service:$('sSvc').value,notes:(oilOn?'+ تغيير زيت ('+($('sOil').value.trim()||'نرشحه')+') | ':'')+$('sNote').value.trim()});afterBook('shop',$('sPhone').value)};
+
+function oilShop(){const only=$('sSvc').value.includes('زيت فقط');if(only)$('sOilChk').checked=true;$('sOilChk').disabled=only;$('oilBox').classList.toggle('hidden',!$('sOilChk').checked)}
+$('sSvc').onchange=$('sOilChk').onchange=oilShop;
+
+// Home wash calculator
+let finalPrice=150;
+function calc(){
+  const only=$('svc').value==='0';
+  if(only)$('hOilChk').checked=true;
+  $('hOilChk').disabled=only;
+  const oil=$('hOilChk').checked;
+  $('hOilBox').classList.toggle('hidden',!oil);
+  const first=homeCard&&homeCard.total===0,free=homeCard&&homeCard.home>=N.home;
+  const base=only?0:Math.round($('carSize').value*$('svc').value/10)*10;
+  homeFree=!only&&!!free;homeNote='';finalPrice=base;
+  if(homeFree){finalPrice=0;homeNote='🎁 غسلة مجانية من كارت الولاء'}
+  else if(!only&&first){finalPrice=Math.max(150,Math.round(base*(100-DISC.home)/1000)*10);homeNote=`🎁 خصم أول مرة ${DISC.home}% (السعر بعد الخصم)`}
+  let t;
+  if(only)t='السعر حسب نوع الزيت';
+  else if(homeFree)t='مجاناً 🎁';
+  else if(finalPrice<base)t=`<s class="text-slate-500 text-xl">${base}</s> ${finalPrice} ج.م`;
+  else t=finalPrice+' ج.م';
+  $('price').innerHTML=t+(oil&&!only?' + الزيت':'');
+  $('price').className=only||oil?'text-2xl font-black text-amber-300':'text-4xl font-black text-amber-300'}
+$('carSize').onchange=$('svc').onchange=$('hOilChk').onchange=calc;calc();
+function lk(inp,type,badge,cb){let t;
+  const set=c=>{if(type==='shop')shopCard=c;else homeCard=c;$(badge).textContent=c?offerText(type,c):'';cb&&cb()};
+  const run=async()=>set(await getCard(inp.value));
+  inp.oninput=()=>{clearTimeout(t);if(norm(inp.value).length>=11)t=setTimeout(run,400);else set(null)};
+  inp.onblur=run}
+lk($('sPhone'),'shop','sBadge');lk($('hPhone'),'home','hBadge',calc);
+$('gps').onclick=()=>{
+  if(!navigator.geolocation)return alert('المتصفح لا يدعم تحديد الموقع');
+  $('gps').textContent='جاري التحديد...';
+  navigator.geolocation.getCurrentPosition(p=>{$('hLoc').value=`https://maps.google.com/?q=${p.coords.latitude},${p.coords.longitude}`;$('gps').textContent='تم تحديد الموقع ✓'},
+  ()=>{alert('تعذر تحديد الموقع، الصق الرابط يدوياً');$('gps').textContent='حدد موقعي تلقائياً'})};
+$('homeSend').onclick=()=>{
+  const n=$('hName').value.trim(),p=$('hPhone').value.trim(),a=$('hAddr').value.trim(),oil=$('hOilChk').checked;
+  if(!n||!p||!a||!$('hZone').value)return alert('من فضلك اكتب الاسم ورقم الموبايل واختار الحي واكتب العنوان');
+  let m=`*طلب غسيل منزلي - SPARK*\n\n👤 الاسم: ${n}\n📞 الموبايل: ${p}\n📍 الحي: ${$('hZone').value} - برج العرب\n🏠 العنوان: ${a}`;
+  if($('hLoc').value.trim())m+=`\n🌐 الموقع: ${$('hLoc').value.trim()}`;
+  m+=`\n🚘 الفئة: ${$('carSize').selectedOptions[0].text}\n🛠️ الخدمة: ${$('svc').selectedOptions[0].text}${finalPrice?`\n💰 سعر الغسيل التقديري: ${finalPrice} ج.م`:homeFree?'\n💰 سعر الغسيل: مجاناً 🎁':''}${statusLine('home',readCard(p))?'\n'+statusLine('home',readCard(p)):''}${oil?`\n🛢️ إضافة تغيير زيت: ${$('hOil').value.trim()||'نرشحه لك'}\n💰 سعر الزيت: يتحدد حسب النوع`:''}`;
+  send(m,{type:'غسيل منزلي',name:n,phone:p,zone:$('hZone').value,address:a,location:$('hLoc').value.trim(),car:$('carSize').selectedOptions[0].text,service:$('svc').selectedOptions[0].text,price:finalPrice||'حسب نوع الزيت',notes:oil?'+ زيت: '+($('hOil').value.trim()||'نرشحه'):''});afterBook('home',p)};
+
+// Service zones (عدّل الأحياء حسب نطاق خدمتك)
+const ZONES=['الحي الأول','الحي الثاني','الحي الثالث','الحي الرابع','الحي الخامس','الحي السادس','الحي السابع','الحي المتميز','الحي الجامعي','المنطقة الصناعية','حي آخر داخل برج العرب'];
+$('zones').innerHTML=ZONES.map(z=>`<span class="px-3 py-1 rounded-full text-xs bg-white/10 border border-white/15">${z}</span>`).join('');
+$('hZone').innerHTML='<option value="">اختار الحي</option>'+ZONES.map(z=>`<option>${z}</option>`).join('');
+
+// Package comparison
+const pk=['غسيل خارجي وتلميع سريع','غسيل VIP كامل صالون وجسم','VIP شامل المحرك بالبخار','باقة SPARK الشاملة'];
+const ft=[['غسيل خارجي بالرغوة',1,1,1,1],['تنظيف الجنوط والإطارات',1,1,1,1],['تلميع سريع',1,1,1,1],['تنظيف الصالون والتابلوه',0,1,1,1],['غسيل المحرك بالبخار',0,0,1,1],['تعقيم الصالون بالبخار',0,0,0,1],['نانو بولش',0,0,0,1]];
+$('cmp').innerHTML='<thead><tr><th></th>'+pk.map((p,i)=>`<th class="p-3 ${i==3?'text-amber-300':''}">${p}</th>`).join('')+'</tr></thead><tbody>'+ft.map(r=>`<tr class="border-t border-white/10"><td class="p-3 text-right text-slate-300">${r[0]}</td>`+r.slice(1).map(v=>`<td class="p-3 text-center">${v?'<i class="fa-solid fa-check text-emerald-400"></i>':'<i class="fa-solid fa-minus text-slate-600"></i>'}</td>`).join('')+'</tr>').join('')+'</tbody>';
+
+// Reviews
+let rate=0,saved=[];
+const base=[{n:'أ. أحمد حسن',r:5,t:'خدمة الغسيل المنزلي ممتازة، الشباب وصلوا في الميعاد والعربية رجعت بتلمع كأنها جديدة.'},
+{n:'م. محمود سامي',r:5,t:'غسيل المحرك والصالون بالبخار احترافي ومفيش أي أثر للروائح. شغل نضيف بجد.'},
+{n:'أ. كريم عبد العظيم',r:5,t:'جربت الباقة الشاملة لسيارتي، اهتمام بأدق التفاصيل وتلميع النانو تحفة.'}];
+try{saved=JSON.parse(localStorage.getItem('spark_reviews')||'[]')}catch(e){}
+const stars=[...document.querySelectorAll('#stars .star')];
+const paint=n=>stars.forEach((s,i)=>s.classList.toggle('on',i<n));
+stars.forEach((s,i)=>{s.onmouseenter=()=>paint(i+1);s.onclick=()=>{rate=i+1;paint(rate)}});
+$('stars').onmouseleave=()=>paint(rate);
+function render(){
+  const all=saved.concat(base);
+  $('rgrid').innerHTML=all.map(x=>`<div class="card p-6"><div class="text-amber-300 mb-3">${'★'.repeat(x.r)}<span class="text-slate-600">${'★'.repeat(5-x.r)}</span></div><p class="text-slate-300 text-sm leading-relaxed mb-4">${esc(x.t)}</p><span class="text-sky-400 font-bold text-sm">- ${esc(x.n)}</span></div>`).join('');
+  $('avg').textContent=(all.reduce((s,x)=>s+x.r,0)/all.length).toFixed(1);$('cnt').textContent=all.length}
+render();
+$('rForm').onsubmit=e=>{e.preventDefault();
+  const n=$('rName').value.trim(),t=$('rText').value.trim();
+  if(!rate||!n||!t){$('rMsg').textContent='اختار عدد النجوم واكتب اسمك ورأيك';return}
+  saved.unshift({n,r:rate,t});
+  try{localStorage.setItem('spark_reviews',JSON.stringify(saved))}catch(e){}
+  render();$('rForm').reset();rate=0;paint(0);$('rMsg').textContent='شكراً لتقييمك!'};
+</script>
+</body>
+</html>
